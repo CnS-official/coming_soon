@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "chalkFont";
+  src: url(/fonts/LondrinaSketch-Regular.woff2) format("woff2");
+}

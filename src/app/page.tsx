@@ -5,7 +5,7 @@ import Text from "@/components/text";
 
 export default function Home() {
   return (
-    <main className="flex w-full h-screen items-center justify-center">
+    <main className="flex w-full h-screen items-center justify-center overflow-hidden  bg-black">
       <Text />
       <Scene />
     </main>

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ["Chalk", "sans-serif"], // Register your custom font
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
